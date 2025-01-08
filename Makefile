@@ -53,7 +53,7 @@ run:
 	./${TARGET}
 
 modules:
-	git submodule update --init --recursive
+	git submodule update --init --recursive --depth 1
 	sed -i 's/#include <SDL/#include <SDL2\/SDL/g' libs/imgui/backends/imgui_impl_sdl2.cpp
 
 clean_modules:
