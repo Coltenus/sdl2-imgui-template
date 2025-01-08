@@ -1,2 +1,14 @@
-# sdl2-imgui-template
-SDL2 ImGui template
+# SDL2 ImGui template
+
+### Building
+
+```bash
+make modules
+make build
+```
+
+### Usage
+
+```bash
+make run
+```
